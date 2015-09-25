@@ -1,5 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Matrix inversion is usually a COSTLY computational procedure.
+## makeCacheMatrix is a function that stores a LIST of FUNCTIONS. It is used
+## in addition to cacheSolve function in order to avoid the  need of
+## computing the inverse of a matrix that had already been computed. In case
+## we want to compute a NEW matrix, then
+## the code will do the whole calculation of the inverse again.
 
 ## Write a short comment describing this function
 
